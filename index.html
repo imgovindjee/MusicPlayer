@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+<!--  Whole System box..... -->
+    <div class="container">
+
+        <div class="top-bar">
+            <i class="material-symbols-outlined">favorite</i>
+            <span>Now Playing</span>
+            <i class="material-symbols-outlined">add</i>
+        </div>
+
+
+
+
+<!-- Center Image section  -->
+        <div class="img-area">
+            <img src="cover/c1.jpg" alt="">
+        </div>
+
+
+
+<!-- Songs details -->
+        <div class="song-details">
+            <p class="name">Mahiyea Jinna Sona</p>
+            <p class="artist">Arjit Singh</p>
+        </div>
+
+
+
+<!-- Progress bar that show the currnet senerio of our song -->
+        <div class="progress-area">
+            <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+            </div>
+            <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+        </div>
+
+
+
+<!-- Play, pause, fastforward, fastbackward -->
+        <div class="controls">
+            <i id="repeat-playlist" class="material-symbols-outlined" title="playlist looped">repeat</i>
+
+
+            <i id="prev" class="material-symbols-outlined prev">fast_rewind </i>
+
+            <div class="play-pause">
+                <i class="material-symbols-outlined">play_arrow</i>
+            </div>
+
+            <i id="next" class="material-symbols-outlined next">fast_forward</i>
+
+
+
+            <i id="more-music" class="material-symbols-outlined">queue_music</i>
+        </div>
+
+
+
+
+
+<!-- Music list -->
+        <div class="music-list">
+
+            <div class="header">
+                <div class="row">
+                    <i class="material-symbols-outlined">queue_music</i>
+                    <span>Music List</span>
+                </div>
+
+                <i id="close" class="material-symbols-outlined">close</i>
+            </div>
+
+            <ul>
+                <!-- <li>
+                    <div class="row">
+                        <span>Rabba Janda</span>
+                        <p>A.R. Rahaman</p>
+                    </div>
+                    <span class="audio-duration">1:00</span>
+                </li> -->
+            </ul>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="Javascript/musiclist.js"></script>
+<script src="Javascript/script.js"></script>
+
+</html>
