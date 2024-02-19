@@ -89,5 +89,17 @@ let allmusic = [
         img: "c16",
         src: "16",
     },
+    {
+        name: "Ve Haniya Ve Dil Janiya",
+        artist: "Jubin Nutiyal, Danny",
+        img: "c17",
+        src: "17",
+    },
+    {
+        name: "Teri Baaton Mein Aise Uljha Jiya",
+        artist: "Raghav, Tanishk Ban..",
+        img: "c18",
+        src: "18",
+    },
 ]
 
