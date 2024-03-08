@@ -101,5 +101,23 @@ let allmusic = [
         img: "c18",
         src: "18",
     },
+    {
+        name: "Saware",
+        artist: "Arjit Singh, Pritam",
+        img: "c19",
+        src: "19",
+    },
+    {
+        name: "Dil Cheez Tujhe Dedi",
+        artist: "Arjit Singh",
+        img: "c20",
+        src: "20",
+    },
+    {
+        name: "Akhiyaan Gulaab",
+        artist: "Mitraz",
+        img: "c21",
+        src: "21",
+    },
 ]
 
